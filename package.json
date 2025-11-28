@@ -1,0 +1,12 @@
+{
+  "name": "apresentacao-dom-bosco",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Apresentação: Desenvolvimento Neuropsicológico e Autonomia - pronta para deploy na Vercel",
+  "scripts": {
+    "start": "vercel dev --listen 3000",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {}
+}
+

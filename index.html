@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação: Desenvolvimento Neuropsicológico e Autonomia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="importmap">
+        {
+            "imports": {}
+        }
+    </script>
+</head>
+<body>
+    <div id="presentation-container">
+        
+        <!-- NAV CONTROLS -->
+        <button class="nav-button nav-left" aria-label="Anterior" id="prevBtn">‹</button>
+        <button class="nav-button nav-right" aria-label="Próximo" id="nextBtn">›</button>
+        <div id="slideCounter" class="slide-counter" aria-hidden="false" aria-live="polite">1 / 12</div>
+
+        <!-- Accessible live region for screen readers -->
+        <div id="ariaAnnounce" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+        
+        <!-- progress bar -->
+        <div class="presentation-progress" aria-hidden="true"><i id="progressFill"></i></div>
+        
+        <!-- SLIDE 1: TÍTULO -->
+        <div class="slide current-slide" data-slide-index="1">
+            <div class="slide-content title-slide">
+                <h1>Desenvolvimento Neuropsicológico e Autonomia em Pessoas com Deficiência</h1>
+                <div class="title-accent" aria-hidden="true"></div>
+                <h2>Uma análise das ações da Fundação Dom Bosco e das políticas públicas</h2>
+                <div class="authors">
+                    <p><strong>Autoras:</strong> Elvimar Peixoto, Kelly Araújo, Tatiana Silveira</p>
+                    <p class="affiliation">IESLA — 2024</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 2: INTRODUÇÃO -->
+        <div class="slide" data-slide-index="2">
+            <div class="slide-content">
+                <h2>O contexto da pesquisa</h2>
+                <div class="content-wrapper">
+                    <ul class="large-list">
+                        <li>Pessoas com deficiência enfrentam barreiras sociais, cognitivas e ambientais.</li>
+                        <li>A vulnerabilidade socioeconômica intensifica esses desafios.</li>
+                        <li>Instituições sociais e políticas públicas são fundamentais na promoção de inclusão, desenvolvimento e autonomia.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 3: PROBLEMA -->
+        <div class="slide" data-slide-index="3">
+            <div class="slide-content">
+                <h2>Problema da pesquisa</h2>
+                <div class="content-wrapper">
+                    <ul class="large-list">
+                        <li>Avanços legais existem, mas desafios persistem na prática.</li>
+                        <li>Falhas na articulação entre instituições e políticas públicas.</li>
+                    </ul>
+                    <div class="central-question">
+                        <h3>Questão central:</h3>
+                        <p>Como as ações da Fundação Dom Bosco, junto às políticas públicas, contribuem para o desenvolvimento neuropsicológico e a autonomia das pessoas com deficiência?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 4: JUSTIFICATIVA -->
+        <div class="slide" data-slide-index="4">
+            <div class="slide-content">
+                <h2>Por que este estudo é importante?</h2>
+                <div class="content-wrapper">
+                    <ul class="large-list">
+                        <li>Compreender impactos reais das ações institucionais.</li>
+                        <li>Vulnerabilidade socioeconômica aumenta as barreiras.</li>
+                        <li>Necessidade de identificar práticas efetivas e lacunas.</li>
+                        <li>Contribuição para aprimorar políticas e serviços.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 5: OBJETIVO GERAL -->
+        <div class="slide" data-slide-index="5">
+            <div class="slide-content">
+                <h2>Objetivo Geral</h2>
+                <div class="content-wrapper">
+                    <p>Analisar como a Fundação Dom Bosco e as políticas públicas contribuem para o desenvolvimento neuropsicológico e a autonomia de pessoas com deficiência em vulnerabilidade.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 6: OBJETIVOS ESPECÍFICOS -->
+        <div class="slide" data-slide-index="6">
+            <div class="slide-content">
+                <h2>Objetivos Específicos</h2>
+                <div class="content-wrapper">
+                    <ul class="large-list">
+                        <li>Mapear ações da Fundação Dom Bosco.</li>
+                        <li>Compreender integração com políticas públicas.</li>
+                        <li>Analisar impactos da vulnerabilidade na autonomia.</li>
+                        <li>Identificar desafios enfrentados pela equipe técnica.</li>
+                        <li>Conhecer percepções das famílias.</li>
+                        <li>Propor sugestões de melhoria.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 7: FUNDAÇÃO DOM BOSCO + VÍDEO -->
+        <div class="slide" data-slide-index="7">
+            <div class="slide-content">
+                <h2>Fundação Dom Bosco</h2>
+                <div class="content-wrapper">
+                    <ul class="large-list">
+                        <li>Instituição de referência em inclusão.</li>
+                        <li>Atuação multidisciplinar: Psicologia, TO, Fono, Pedagogia, Fisioterapia e Assistência Social, neuropediatria, psiquiatria e avaliação neuropsicológica.</li>
+                        <li>Foco: autonomia, inclusão e desenvolvimento humano.</li>
+                    </ul>
+                    <div class="video-wrapper" aria-hidden="false">
+                        <iframe
+                            src="https://www.youtube-nocookie.com/embed/VBYpXejGfWo"
+                            title="Fundação Dom Bosco - Vídeo Institucional"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 8: METODOLOGIA -->
+        <div class="slide" data-slide-index="8">
+            <div class="slide-content">
+                <h2>Metodologia</h2>
+                <div class="content-wrapper">
+                    <div class="methodology-grid" aria-hidden="false">
+                        <div class="methodology-card">
+                            <h4>Abordagem</h4>
+                            <p>Qualitativa, descritivo-exploratória.</p>
+                        </div>
+                        <div class="methodology-card">
+                            <h4>Local</h4>
+                            <p>Fundação Dom Bosco.</p>
+                        </div>
+                        <div class="methodology-card">
+                            <h4>Participantes</h4>
+                            <p>Profissionais, gestores, familiares e usuários.</p>
+                        </div>
+                        <div class="methodology-card">
+                            <h4>Coleta de dados</h4>
+                            <p>
+                                • Análise documental<br>
+                                • Entrevistas semiestruturadas<br>
+                                • Observação participante
+                            </p>
+                        </div>
+                        <div class="methodology-card">
+                            <h4>Análise</h4>
+                            <p>Análise de Conteúdo (Bardin).</p>
+                        </div>
+                        <div class="methodology-card">
+                            <h4>Rigor e Ética</h4>
+                            <p>Triangulação, devolutiva, registro reflexivo, TCLE e aprovação do Comitê de Ética.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 9: ACHADOS -->
+        <div class="slide" data-slide-index="9">
+            <div class="slide-content">
+                <h2>Principais Achados da Pesquisa</h2>
+                <div class="content-wrapper">
+                    <ul class="large-list">
+                        <li>Ações fortalecem habilidades cognitivas, sociais e emocionais.</li>
+                        <li>Avanços em autonomia: comunicação, cotidiano e regulação emocional.</li>
+                        <li>Famílias reconhecem impacto positivo.</li>
+                        <li>Políticas públicas: avanços, mas com falhas na execução e articulação.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 10: DESAFIOS -->
+        <div class="slide" data-slide-index="10">
+            <div class="slide-content">
+                <h2>Desafios Identificados</h2>
+                <div class="content-wrapper">
+                    <ul class="large-list">
+                        <li>Alta demanda x capacidade limitada.</li>
+                        <li>Falta de recursos humanos e materiais.</li>
+                        <li>Baixa integração entre serviços públicos e instituições sociais.</li>
+                        <li>Descontinuidade das políticas públicas.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 11: CONCLUSÃO -->
+        <div class="slide" data-slide-index="11">
+            <div class="slide-content">
+                <h2>Conclusão</h2>
+                <div class="content-wrapper">
+                    <ul class="large-list">
+                        <li>A Fundação Dom Bosco tem papel essencial no desenvolvimento e autonomia.</li>
+                        <li>Ações são efetivas, mas precisam de apoio mais consistente.</li>
+                        <li>Políticas públicas devem ser fortalecidas e articuladas.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 12: CONSIDERAÇÕES FINAIS -->
+        <div class="slide final-slide" data-slide-index="12">
+            <div class="slide-content">
+                <h2>Considerações Finais</h2>
+                <div class="content-wrapper">
+                    <div class="final-grid" aria-hidden="false">
+                        <div class="final-card">
+                            <div class="final-icon">🤝</div>
+                            <h4>Intersetorialidade</h4>
+                            <p>Fortalecer ações intersetoriais para respostas integradas e contínuas.</p>
+                        </div>
+                        <div class="final-card">
+                            <div class="final-icon">🔁</div>
+                            <h4>Continuidade</h4>
+                            <p>Ampliar acesso e assegurar a continuidade dos serviços essenciais.</p>
+                        </div>
+                        <div class="final-card">
+                            <div class="final-icon">⚖️</div>
+                            <h4>Foco na Vulnerabilidade</h4>
+                            <p>Colocar a vulnerabilidade socioeconômica no centro das políticas públicas.</p>
+                        </div>
+                        <div class="final-card">
+                            <div class="final-icon">🔍</div>
+                            <h4>Contribuições do Estudo</h4>
+                            <p>Oferecer subsídios práticos para reflexões e melhorias futuras.</p>
+                        </div>
+                    </div>
+
+                    <div class="final-cta">
+                        <p class="cta-text">Para avançar, é necessário compromisso contínuo entre instituições, famílias e poder público.</p>
+                        <!-- botão de encerramento removido conforme solicitado -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js" type="module"></script>
+</body>
+</html>
